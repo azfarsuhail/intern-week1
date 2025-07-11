@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Me - Azfar" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Azfar's Portfolio</h1>
+    <p class="tagline">Web Developer | Designer | Creative Thinker</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="actions">
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    <a href="/assets/resume.png" download class="resume-btn">Download Resume</a>
+  </div>
+
+  <main>
+    <section id="about" class="about">
+      <img src="assets/image.png" alt="Azfar's Photo" />
+      <div>
+        <h2>About Me</h2>
+        <p>
+
+  Hi, I'm Azfar! I design and build responsive, user-friendly websites with a focus on great user experience and clean design. I work with technologies like HTML, CSS, JavaScript, and modern frameworks like React and Next.js. I'm also experienced in backend development with Node.js and Python, and I’ve worked with databases like PostgreSQL and MongoDB. I follow UI/UX best practices and version control workflows using Git and GitHub. Whether it’s building scalable APIs, deploying to the cloud, or optimizing performance, I love solving real-world problems through code.
+
+        </p>
+      </div>
+    </section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript (ES6+)</li>
+    <li>React.js & Next.js</li>
+    <li>Node.js & Express.js</li>
+    <li>Python & Django</li>
+    <li>SQL & NoSQL (PostgreSQL, MongoDB)</li>
+    <li>RESTful APIs & GraphQL</li>
+    <li>Git & GitHub (Version Control)</li>
+    <li>AWS & Cloud Computing Basics</li>
+    <li>CI/CD & DevOps Concepts</li>
+    <li>UI/UX Principles & Responsive Design</li>
+  </ul>
+</section>
+
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="carousel">
+    <div class="carousel-track">
+      <div class="project">
+        <img src="/assets/what-is-openai.webp" alt="OpenAI" />
+        <h3>OpenAI</h3>
+        <p>OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.</p>
+      </div>
+      <div class="project">
+        <img src="/assets/images.png" alt="Google" />
+        <h3>Google</h3>
+        <p>Google Search is the most popular search engine worldwide, operated by Google. It allows users to find information on the internet by entering keywords or phrases. Google's search algorithms analyze and rank websites based on their relevance to the search query, with its priority ranking system called "PageRank".</p>
+      </div>
+      <div class="project">
+        <img src="/assets/Meta_Inc._logo.jpg" alt="Meta" />
+        <h3>Meta</h3>
+        <p>Meta, formerly known as Facebook, Inc., is a technology conglomerate that focuses on building products that enable people to connect and share with each other. They own and operate popular social media platforms like Facebook, Instagram, Messenger, and WhatsApp, as well as virtual reality products like Oculus.</p>
+      </div>
+      <div class="project">
+        <img src="/assets/31JfJ6dXD9L.png" alt="Netflix" />
+        <h3>Netflix</h3>
+        <p>Netflix is a subscription-based streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on internet-connected devices. Members can watch as much as they want, whenever they want, for one low monthly price.</p>
+      </div>
+      <div class="project">
+        <img src="/assets/images.jpg" alt="X" />
+        <h3>X</h3>
+        <p>X (formerly known as Twitter) is a social networking and microblogging platform where users share short posts called "tweets" (or "x's"). These posts, limited to 280 characters, can include text, images, videos, and links. Users can also engage with other users' posts through likes, retweets, and comments. </p>
+      </div>
+    </div>
+    <button class="carousel-btn left">&#10094;</button>
+    <button class="carousel-btn right">&#10095;</button>
+  </div>
+</section>
+
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Azfar. All rights reserved.</p>
+  </footer>
+
+  <button id="scroll-top">&#8679;</button>
+  <script src="script.js"></script>
+</body>
+</html>
